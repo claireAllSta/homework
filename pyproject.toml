@@ -1,0 +1,25 @@
+[project]
+name = "homework"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "llama-index>=0.13.3",
+    "paddleocr>=2.7.0",
+    "paddlepaddle>=2.5.0",
+    "Pillow>=9.0.0",
+    "opencv-python>=4.5.0",
+    "numpy>=1.21.0",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "paddlepaddle-gpu>=2.5.0,<=2.6.2",
+]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "isort>=5.0.0",
+    "flake8>=4.0.0",
+]
