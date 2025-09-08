@@ -1,3 +1,38 @@
+Metadata-Version: 2.4
+Name: homework
+Version: 0.1.0
+Summary: Homework projects collection
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pymilvus<3.0.0,>=2.3.6
+Requires-Dist: neo4j<6.0.0,>=5.15.0
+Requires-Dist: llama-index<0.10.0,>=0.9.30
+Requires-Dist: llama-index-vector-stores-milvus<0.2.0,>=0.1.11
+Requires-Dist: llama-index-embeddings-openai<0.2.0,>=0.1.7
+Requires-Dist: llama-index-llms-openai<0.2.0,>=0.1.7
+Requires-Dist: fastapi<1.0.0,>=0.104.0
+Requires-Dist: uvicorn<1.0.0,>=0.24.0
+Requires-Dist: pydantic<3.0.0,>=2.5.0
+Requires-Dist: pydantic-settings<3.0.0,>=2.0.0
+Requires-Dist: sentence-transformers<3.0.0,>=2.2.0
+Requires-Dist: jieba<1.0.0,>=0.42.0
+Requires-Dist: nltk<4.0.0,>=3.8.0
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: loguru<1.0.0,>=0.7.2
+Requires-Dist: watchdog<4.0.0,>=3.0.0
+Requires-Dist: pandas<3.0.0,>=2.1.0
+Requires-Dist: numpy<2.0.0,>=1.24.0
+Requires-Dist: pytest<8.0.0,>=7.4.0
+Requires-Dist: pytest-asyncio<1.0.0,>=0.21.0
+Requires-Dist: requests<3.0.0,>=2.31.0
+Requires-Dist: rich<14.0.0,>=13.7.0
+Requires-Dist: typer<1.0.0,>=0.9.0
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
 # Homework Projects
 
 这是一个包含多个作业项目的代码仓库。
