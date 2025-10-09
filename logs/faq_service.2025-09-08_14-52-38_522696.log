@@ -1,0 +1,139 @@
+2025-09-08 14:52:38 | INFO     | main:lifespan:38 - 正在启动 FAQ 检索服务...
+2025-09-08 14:52:38 | INFO     | faq_service:initialize:23 - 正在初始化 FAQ 服务...
+2025-09-08 14:52:38 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 14:52:38 | INFO     | milvus_client:create_collection:38 - 集合 faq_collection 已存在
+2025-09-08 14:52:38 | INFO     | milvus_client:create_index:77 - 索引已存在
+2025-09-08 14:52:38 | INFO     | faq_indexer:initialize:32 - FAQ 索引器初始化成功
+2025-09-08 14:52:38 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 14:52:38 | INFO     | faq_retriever:initialize:33 - FAQ 检索器初始化成功
+2025-09-08 14:52:38 | INFO     | faq_service:_load_initial_data:57 - 未找到初始 FAQ 数据文件，创建示例数据
+2025-09-08 14:52:38 | INFO     | faq_service:_create_sample_data:108 - 示例 FAQ 数据已创建: ./data/faq_data.json
+2025-09-08 14:52:38 | INFO     | faq_indexer:update_index:214 - 开始更新 FAQ 索引: ./data/faq_data.json
+2025-09-08 14:52:38 | INFO     | faq_indexer:load_faq_data:70 - 成功加载 5 条 FAQ 数据
+2025-09-08 14:52:38 | INFO     | faq_indexer:rebuild_index:187 - 开始重建 FAQ 索引
+2025-09-08 14:52:38 | INFO     | milvus_client:delete_collection:187 - 成功删除集合: faq_collection
+2025-09-08 14:52:38 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 14:52:38 | INFO     | milvus_client:create_collection:65 - 成功创建集合: faq_collection
+2025-09-08 14:52:39 | INFO     | milvus_client:create_index:93 - 成功创建向量索引
+2025-09-08 14:52:39 | INFO     | faq_indexer:initialize:32 - FAQ 索引器初始化成功
+2025-09-08 14:52:39 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=60, 切分块数=1
+2025-09-08 14:52:40 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=67, 切分块数=1
+2025-09-08 14:52:40 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=71, 切分块数=1
+2025-09-08 14:52:40 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=68, 切分块数=1
+2025-09-08 14:52:40 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=65, 切分块数=1
+2025-09-08 14:52:40 | INFO     | faq_indexer:process_faq_data:136 - FAQ 数据处理完成，生成 5 个文本块
+2025-09-08 14:52:41 | INFO     | milvus_client:insert_data:128 - 成功插入 5 条数据
+2025-09-08 14:52:41 | INFO     | faq_indexer:build_index:165 - FAQ 索引构建成功
+2025-09-08 14:52:41 | ERROR    | milvus_client:get_collection_stats:205 - 获取集合统计信息失败: 'Collection' object has no attribute 'get_stats'
+2025-09-08 14:52:41 | INFO     | faq_indexer:build_index:168 - 集合统计信息: {}
+2025-09-08 14:52:41 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 14:52:41 | INFO     | faq_retriever:initialize:33 - FAQ 检索器初始化成功
+2025-09-08 14:52:41 | INFO     | file_watcher:start_watching:97 - 开始监控目录: ./data
+2025-09-08 14:52:41 | INFO     | faq_service:initialize:42 - FAQ 服务初始化成功
+2025-09-08 14:52:41 | INFO     | main:lifespan:44 - FAQ 检索服务启动成功
+2025-09-08 14:52:41 | INFO     | main:lifespan:48 - 正在关闭 FAQ 检索服务...
+2025-09-08 14:52:41 | INFO     | faq_service:shutdown:281 - 正在关闭 FAQ 服务...
+2025-09-08 14:52:41 | INFO     | file_watcher:stop_watching:110 - 文件监控已停止
+2025-09-08 14:52:41 | INFO     | milvus_client:disconnect:212 - 已断开 Milvus 连接
+2025-09-08 14:52:41 | INFO     | milvus_client:disconnect:212 - 已断开 Milvus 连接
+2025-09-08 14:52:41 | INFO     | faq_service:shutdown:291 - FAQ 服务已关闭
+2025-09-08 14:52:41 | INFO     | main:lifespan:50 - FAQ 检索服务已关闭
+2025-09-08 15:50:14 | INFO     | main:lifespan:38 - 正在启动 FAQ 检索服务...
+2025-09-08 15:50:14 | INFO     | faq_service:initialize:23 - 正在初始化 FAQ 服务...
+2025-09-08 15:50:14 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 15:50:14 | INFO     | milvus_client:create_collection:38 - 集合 faq_collection 已存在
+2025-09-08 15:50:14 | INFO     | milvus_client:create_index:77 - 索引已存在
+2025-09-08 15:50:14 | INFO     | faq_indexer:initialize:32 - FAQ 索引器初始化成功
+2025-09-08 15:50:14 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 15:50:14 | INFO     | faq_retriever:initialize:33 - FAQ 检索器初始化成功
+2025-09-08 15:50:14 | INFO     | faq_service:_load_initial_data:54 - 加载初始 FAQ 数据: ./data/faq_data.json
+2025-09-08 15:50:14 | INFO     | faq_indexer:update_index:214 - 开始更新 FAQ 索引: ./data/faq_data.json
+2025-09-08 15:50:14 | INFO     | faq_indexer:load_faq_data:70 - 成功加载 5 条 FAQ 数据
+2025-09-08 15:50:14 | INFO     | faq_indexer:rebuild_index:187 - 开始重建 FAQ 索引
+2025-09-08 15:50:14 | INFO     | milvus_client:delete_collection:187 - 成功删除集合: faq_collection
+2025-09-08 15:50:14 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 15:50:14 | INFO     | milvus_client:create_collection:65 - 成功创建集合: faq_collection
+2025-09-08 15:50:14 | INFO     | milvus_client:create_index:93 - 成功创建向量索引
+2025-09-08 15:50:14 | INFO     | faq_indexer:initialize:32 - FAQ 索引器初始化成功
+2025-09-08 15:50:14 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=60, 切分块数=1
+2025-09-08 15:50:14 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=67, 切分块数=1
+2025-09-08 15:50:14 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=71, 切分块数=1
+2025-09-08 15:50:14 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=68, 切分块数=1
+2025-09-08 15:50:14 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=65, 切分块数=1
+2025-09-08 15:50:15 | INFO     | faq_indexer:process_faq_data:136 - FAQ 数据处理完成，生成 5 个文本块
+2025-09-08 15:50:15 | INFO     | milvus_client:insert_data:128 - 成功插入 5 条数据
+2025-09-08 15:50:15 | INFO     | faq_indexer:build_index:165 - FAQ 索引构建成功
+2025-09-08 15:50:15 | ERROR    | milvus_client:get_collection_stats:205 - 获取集合统计信息失败: 'Collection' object has no attribute 'get_stats'
+2025-09-08 15:50:15 | INFO     | faq_indexer:build_index:168 - 集合统计信息: {}
+2025-09-08 15:50:15 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 15:50:15 | INFO     | faq_retriever:initialize:33 - FAQ 检索器初始化成功
+2025-09-08 15:50:15 | INFO     | file_watcher:start_watching:97 - 开始监控目录: ./data
+2025-09-08 15:50:15 | INFO     | faq_service:initialize:42 - FAQ 服务初始化成功
+2025-09-08 15:50:15 | INFO     | main:lifespan:44 - FAQ 检索服务启动成功
+2025-09-08 16:09:54 | ERROR    | milvus_client:get_collection_stats:205 - 获取集合统计信息失败: 'Collection' object has no attribute 'get_stats'
+2025-09-08 16:10:03 | ERROR    | milvus_client:get_collection_stats:205 - 获取集合统计信息失败: 'Collection' object has no attribute 'get_stats'
+2025-09-08 16:10:22 | ERROR    | milvus_client:get_collection_stats:205 - 获取集合统计信息失败: 'Collection' object has no attribute 'get_stats'
+2025-09-08 16:18:09 | INFO     | main:lifespan:48 - 正在关闭 FAQ 检索服务...
+2025-09-08 16:18:09 | INFO     | faq_service:shutdown:281 - 正在关闭 FAQ 服务...
+2025-09-08 16:18:09 | INFO     | file_watcher:stop_watching:110 - 文件监控已停止
+2025-09-08 16:18:09 | INFO     | milvus_client:disconnect:212 - 已断开 Milvus 连接
+2025-09-08 16:18:09 | INFO     | milvus_client:disconnect:212 - 已断开 Milvus 连接
+2025-09-08 16:18:09 | INFO     | faq_service:shutdown:291 - FAQ 服务已关闭
+2025-09-08 16:18:09 | INFO     | main:lifespan:50 - FAQ 检索服务已关闭
+2025-09-08 16:19:34 | INFO     | main:lifespan:39 - 正在启动 FAQ 检索服务...
+2025-09-08 16:19:34 | INFO     | faq_service:initialize:23 - 正在初始化 FAQ 服务...
+2025-09-08 16:19:34 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 16:19:34 | INFO     | milvus_client:create_collection:38 - 集合 faq_collection 已存在
+2025-09-08 16:19:34 | INFO     | milvus_client:create_index:77 - 索引已存在
+2025-09-08 16:19:34 | INFO     | faq_indexer:initialize:32 - FAQ 索引器初始化成功
+2025-09-08 16:19:34 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 16:19:34 | INFO     | faq_retriever:initialize:33 - FAQ 检索器初始化成功
+2025-09-08 16:19:34 | INFO     | faq_service:_load_initial_data:54 - 加载初始 FAQ 数据: ./data/faq_data.json
+2025-09-08 16:19:34 | INFO     | faq_indexer:update_index:214 - 开始更新 FAQ 索引: ./data/faq_data.json
+2025-09-08 16:19:34 | INFO     | faq_indexer:load_faq_data:70 - 成功加载 5 条 FAQ 数据
+2025-09-08 16:19:34 | INFO     | faq_indexer:rebuild_index:187 - 开始重建 FAQ 索引
+2025-09-08 16:19:34 | INFO     | milvus_client:delete_collection:187 - 成功删除集合: faq_collection
+2025-09-08 16:19:34 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 16:19:34 | INFO     | milvus_client:create_collection:65 - 成功创建集合: faq_collection
+2025-09-08 16:19:34 | INFO     | milvus_client:create_index:93 - 成功创建向量索引
+2025-09-08 16:19:34 | INFO     | faq_indexer:initialize:32 - FAQ 索引器初始化成功
+2025-09-08 16:19:34 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=60, 切分块数=1
+2025-09-08 16:19:34 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=67, 切分块数=1
+2025-09-08 16:19:34 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=71, 切分块数=1
+2025-09-08 16:19:34 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=68, 切分块数=1
+2025-09-08 16:19:34 | INFO     | text_splitter:split_text:61 - 文本切分完成: 原文长度=65, 切分块数=1
+2025-09-08 16:19:34 | INFO     | faq_indexer:process_faq_data:136 - FAQ 数据处理完成，生成 5 个文本块
+2025-09-08 16:19:35 | INFO     | milvus_client:insert_data:128 - 成功插入 5 条数据
+2025-09-08 16:19:35 | INFO     | faq_indexer:build_index:165 - FAQ 索引构建成功
+2025-09-08 16:19:35 | INFO     | faq_indexer:build_index:168 - 集合统计信息: {'entity_count': 5, 'index_type': 'IVF_FLAT', 'metric_type': 'L2', 'collection_name': 'faq_collection'}
+2025-09-08 16:19:35 | INFO     | milvus_client:connect:27 - 成功连接到 Milvus: localhost:19530
+2025-09-08 16:19:35 | INFO     | faq_retriever:initialize:33 - FAQ 检索器初始化成功
+2025-09-08 16:19:35 | INFO     | file_watcher:start_watching:97 - 开始监控目录: ./data
+2025-09-08 16:19:35 | INFO     | faq_service:initialize:42 - FAQ 服务初始化成功
+2025-09-08 16:19:35 | INFO     | main:lifespan:45 - FAQ 检索服务启动成功
+2025-09-08 16:21:07 | INFO     | main:search_faq:100 - 收到搜索请求: 如何退货
+2025-09-08 16:21:09 | INFO     | milvus_client:search:175 - 搜索完成，返回 0 条结果
+2025-09-08 16:21:09 | INFO     | faq_retriever:search:73 - 查询: '如何退货' 返回 0 条结果
+2025-09-08 16:21:09 | INFO     | main:search_faq:130 - 搜索完成，返回 0 条结果
+2025-09-08 16:21:23 | INFO     | main:search_faq:100 - 收到搜索请求: 如何退货？
+2025-09-08 16:21:23 | INFO     | milvus_client:search:175 - 搜索完成，返回 0 条结果
+2025-09-08 16:21:23 | INFO     | faq_retriever:search:73 - 查询: '如何退货？' 返回 0 条结果
+2025-09-08 16:21:23 | INFO     | main:search_faq:130 - 搜索完成，返回 0 条结果
+2025-09-08 16:21:41 | INFO     | main:search_faq:100 - 收到搜索请求: 支付方式有哪些？
+2025-09-08 16:21:42 | INFO     | milvus_client:search:175 - 搜索完成，返回 1 条结果
+2025-09-08 16:21:42 | INFO     | faq_retriever:search:73 - 查询: '支付方式有哪些？' 返回 1 条结果
+2025-09-08 16:21:42 | INFO     | main:search_faq:130 - 搜索完成，返回 1 条结果
+2025-09-08 16:23:27 | INFO     | main:search_faq:100 - 收到搜索请求: 支付方式有哪些？
+2025-09-08 16:23:27 | INFO     | milvus_client:search:175 - 搜索完成，返回 1 条结果
+2025-09-08 16:23:27 | INFO     | faq_retriever:search:73 - 查询: '支付方式有哪些？' 返回 0 条结果
+2025-09-08 16:23:27 | INFO     | main:search_faq:130 - 搜索完成，返回 0 条结果
+2025-09-08 16:27:31 | INFO     | main:get_similar_questions:148 - 获取相似问题: 支付方式有哪些？
+2025-09-08 16:27:31 | INFO     | milvus_client:search:175 - 搜索完成，返回 1 条结果
+2025-09-08 16:27:31 | INFO     | faq_retriever:search:73 - 查询: '支付方式有哪些？' 返回 1 条结果
+2025-09-08 16:32:05 | INFO     | main:lifespan:49 - 正在关闭 FAQ 检索服务...
+2025-09-08 16:32:05 | INFO     | faq_service:shutdown:282 - 正在关闭 FAQ 服务...
+2025-09-08 16:32:05 | INFO     | file_watcher:stop_watching:110 - 文件监控已停止
+2025-09-08 16:32:05 | INFO     | milvus_client:disconnect:216 - 已断开 Milvus 连接
+2025-09-08 16:32:05 | INFO     | milvus_client:disconnect:216 - 已断开 Milvus 连接
+2025-09-08 16:32:05 | INFO     | faq_service:shutdown:292 - FAQ 服务已关闭
+2025-09-08 16:32:05 | INFO     | main:lifespan:51 - FAQ 检索服务已关闭
