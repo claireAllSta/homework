@@ -1,9 +1,5 @@
 pymilvus<3.0.0,>=2.3.6
 neo4j<6.0.0,>=5.15.0
-langchain<0.2.0,>=0.1.0
-langchain-openai<0.1.0,>=0.0.8
-langchain-core<0.2.0,>=0.1.0
-langgraph<0.1.0,>=0.0.32
 llama-index<0.10.0,>=0.9.30
 llama-index-vector-stores-milvus<0.2.0,>=0.1.11
 llama-index-embeddings-openai<0.2.0,>=0.1.7
@@ -23,6 +19,9 @@ numpy<2.0.0,>=1.24.0
 pytest<8.0.0,>=7.4.0
 pytest-asyncio<1.0.0,>=0.21.0
 requests<3.0.0,>=2.31.0
+langchain<0.2.0,>=0.1.0
+langchain-openai<0.1.0,>=0.0.5
+langgraph<0.1.0,>=0.0.20
 rich<14.0.0,>=13.7.0
 typer<1.0.0,>=0.9.0
 

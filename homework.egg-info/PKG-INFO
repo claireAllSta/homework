@@ -6,10 +6,6 @@ Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: pymilvus<3.0.0,>=2.3.6
 Requires-Dist: neo4j<6.0.0,>=5.15.0
-Requires-Dist: langchain<0.2.0,>=0.1.0
-Requires-Dist: langchain-openai<0.1.0,>=0.0.8
-Requires-Dist: langchain-core<0.2.0,>=0.1.0
-Requires-Dist: langgraph<0.1.0,>=0.0.32
 Requires-Dist: llama-index<0.10.0,>=0.9.30
 Requires-Dist: llama-index-vector-stores-milvus<0.2.0,>=0.1.11
 Requires-Dist: llama-index-embeddings-openai<0.2.0,>=0.1.7
@@ -29,6 +25,9 @@ Requires-Dist: numpy<2.0.0,>=1.24.0
 Requires-Dist: pytest<8.0.0,>=7.4.0
 Requires-Dist: pytest-asyncio<1.0.0,>=0.21.0
 Requires-Dist: requests<3.0.0,>=2.31.0
+Requires-Dist: langchain<0.2.0,>=0.1.0
+Requires-Dist: langchain-openai<0.1.0,>=0.0.5
+Requires-Dist: langgraph<0.1.0,>=0.0.20
 Requires-Dist: rich<14.0.0,>=13.7.0
 Requires-Dist: typer<1.0.0,>=0.9.0
 Provides-Extra: dev
